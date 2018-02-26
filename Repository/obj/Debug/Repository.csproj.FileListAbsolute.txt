@@ -1,0 +1,13 @@
+C:\Users\dell\Documents\bitbucket\CFDI_BI\Repository\bin\Debug\Repository.dll.config
+C:\Users\dell\Documents\bitbucket\CFDI_BI\Repository\bin\Debug\Repository.dll
+C:\Users\dell\Documents\bitbucket\CFDI_BI\Repository\bin\Debug\Repository.pdb
+C:\Users\dell\Documents\bitbucket\CFDI_BI\Repository\bin\Debug\AutoMapper.dll
+C:\Users\dell\Documents\bitbucket\CFDI_BI\Repository\bin\Debug\EntityFramework.dll
+C:\Users\dell\Documents\bitbucket\CFDI_BI\Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dell\Documents\bitbucket\CFDI_BI\Repository\bin\Debug\AutoMapper.xml
+C:\Users\dell\Documents\bitbucket\CFDI_BI\Repository\bin\Debug\EntityFramework.xml
+C:\Users\dell\Documents\bitbucket\CFDI_BI\Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dell\Documents\bitbucket\CFDI_BI\Repository\obj\Debug\Repository.csprojResolveAssemblyReference.cache
+C:\Users\dell\Documents\bitbucket\CFDI_BI\Repository\obj\Debug\Repository.csproj.CoreCompileInputs.cache
+C:\Users\dell\Documents\bitbucket\CFDI_BI\Repository\obj\Debug\Repository.dll
+C:\Users\dell\Documents\bitbucket\CFDI_BI\Repository\obj\Debug\Repository.pdb

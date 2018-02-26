@@ -1,0 +1,11 @@
+C:\Users\dell\Documents\bitbucket\CFDI_BI\Repository\bin\Release\Repository.dll.config
+C:\Users\dell\Documents\bitbucket\CFDI_BI\Repository\bin\Release\Repository.dll
+C:\Users\dell\Documents\bitbucket\CFDI_BI\Repository\bin\Release\Repository.pdb
+C:\Users\dell\Documents\bitbucket\CFDI_BI\Repository\bin\Release\EntityFramework.dll
+C:\Users\dell\Documents\bitbucket\CFDI_BI\Repository\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\dell\Documents\bitbucket\CFDI_BI\Repository\bin\Release\EntityFramework.xml
+C:\Users\dell\Documents\bitbucket\CFDI_BI\Repository\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\dell\Documents\bitbucket\CFDI_BI\Repository\obj\Release\Repository.csprojResolveAssemblyReference.cache
+C:\Users\dell\Documents\bitbucket\CFDI_BI\Repository\obj\Release\Repository.csproj.CoreCompileInputs.cache
+C:\Users\dell\Documents\bitbucket\CFDI_BI\Repository\obj\Release\Repository.dll
+C:\Users\dell\Documents\bitbucket\CFDI_BI\Repository\obj\Release\Repository.pdb

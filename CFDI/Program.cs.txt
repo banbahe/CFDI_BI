@@ -1,0 +1,102 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using CFDI.AutoMapper;
+using CFDI.Controllers;
+using System.IO;
+using Repository;
+namespace CFDI
+{
+    class Program
+    {
+
+        private static ICFDI _cfdi;
+
+        //public int solution(int A, int B)
+        //{
+        //    List<int> position = new List<int>();
+        //    bool flag = false;
+        //    if (A > 0 && B > 0 && A <= 999999999 && B <= 999999999)
+        //    {
+        //        List<char> aA = A.ToString().ToCharArray().ToList();
+        //        List<char> aB = B.ToString().ToCharArray().ToList();
+
+        //        for (int i = 0; i < aB.Count; i++)
+        //        {
+        //            for (int j = 0; j < aA.Count; j++)
+        //            {
+        //                if (aB[i] == aA[j])
+        //                {
+        //                    position.Add(i);
+        //                    aA.Remove(aA[j]);
+        //                    aB.Remove(aB[i]);
+        //                    flag = true;
+        //                    break;
+        //                }
+        //                else
+        //                {
+        //                    aB.Remove(aB[i]);
+        //                    flag = false;
+        //                    continue;
+        //                }
+        //            }
+        //        }
+        //    }
+
+        //    return (flag) ? position.FirstOrDefault() : -1;
+
+        //}
+        static void Main(string[] args)
+        {
+
+            _cfdi = new CFDIController();
+            _cfdi.List();
+
+            UpdateZipCode();
+            //AutoMapperConfig autoMapperConfig = new AutoMapperConfig();
+            //_cfdi = new CFDIController();
+            //List<string> files = _cfdi.GetFiles(@"C:\Users\dell\Documents\emailmanagmentattachment\files", new List<string> { ".xml" });
+            //List<string> files = _cfdi.GetFiles(@"C:\Users\dell\Documents\emailmanagmentattachment\files", new List<string> { ".xml" });
+
+            //foreach (var item in files)
+            //{
+            //    Models.CFDI cfdi = _cfdi.Read(item);
+            //    if (!_cfdi.Exist(cfdi))
+            //        _cfdi.Add(cfdi);
+            //    else
+            //        _cfdi.Move(item, @"C:\Users\dell\Documents\emailmanagmentattachment\exist", Path.GetFileName(item));
+
+            //    Console.WriteLine("");
+            //}
+
+            Console.ReadLine();
+        }
+
+        private static void UpdateZipCode()
+        {
+            CFDI_ADDRESS cfdi_address = new CFDI_ADDRESS();
+            zipcodesmx zipcodesmx = new zipcodesmx();
+            var resAddress = cfdi_address.List();
+            var resZipCode = zipcodesmx.List();
+
+            Console.WriteLine("start");
+            foreach (var item in resAddress)
+            {
+                //zipcodesmx.codigo = item.codigoPostal;
+                foreach (var item2 in resZipCode)
+                {
+                    if (item2.asentamiento.Contains(item.colonia))
+                    {
+                        Console.WriteLine(item2.asentamiento);
+                        Console.WriteLine(item.colonia);
+                        Console.WriteLine("*************************************");
+
+                    }
+                }
+
+            }
+        }
+    }
+}

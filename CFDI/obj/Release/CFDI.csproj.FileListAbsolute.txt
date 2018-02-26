@@ -1,0 +1,9 @@
+C:\Users\dell\Documents\bitbucket\CFDI_BI\CFDI\bin\Release\CFDI.exe.config
+C:\Users\dell\Documents\bitbucket\CFDI_BI\CFDI\bin\Release\CFDI.exe
+C:\Users\dell\Documents\bitbucket\CFDI_BI\CFDI\bin\Release\CFDI.pdb
+C:\Users\dell\Documents\bitbucket\CFDI_BI\CFDI\bin\Release\Models.dll
+C:\Users\dell\Documents\bitbucket\CFDI_BI\CFDI\bin\Release\Models.pdb
+C:\Users\dell\Documents\bitbucket\CFDI_BI\CFDI\obj\Release\CFDI.csprojResolveAssemblyReference.cache
+C:\Users\dell\Documents\bitbucket\CFDI_BI\CFDI\obj\Release\CFDI.csproj.CoreCompileInputs.cache
+C:\Users\dell\Documents\bitbucket\CFDI_BI\CFDI\obj\Release\CFDI.exe
+C:\Users\dell\Documents\bitbucket\CFDI_BI\CFDI\obj\Release\CFDI.pdb
